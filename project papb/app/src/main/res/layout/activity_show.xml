@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="#733781" tools:context=".show" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:layout_height="425dp" android:layout_width="389dp" tools:layout_editor_absoluteY="178dp" app:layout_constraintRight_toRightOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintHorizontal_bias="0.47" android:padding="30dp" android:orientation="vertical">
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" tools:layout_editor_absoluteY="177dp" android:padding="15dp" android:orientation="horizontal" tools:layout_editor_absoluteX="97dp" android:layout_gravity="center" android:id="@+id/content">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView2" app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent" android:textStyle="normal" android:textSize="12sp" android:textColor="@color/white" android:textAlignment="center" android:text="NIM:" android:layout_marginRight="5dp"/>
+
+    <TextView android:background="#00FFF0F0" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/text_nim" app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent" android:textStyle="normal" android:textSize="12sp" android:textColor="#FF5722" android:textAlignment="center" android:text="Test" android:textAllCaps="false" android:clickable="true"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" tools:layout_editor_absoluteY="177dp" android:padding="15dp" android:orientation="horizontal" tools:layout_editor_absoluteX="97dp" android:layout_gravity="center" android:id="@+id/content4">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView5" app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent" android:textStyle="normal" android:textSize="12sp" android:textColor="@color/white" android:textAlignment="center" android:text="Nama:" android:layout_marginRight="5dp"/>
+
+    <TextView android:background="#00FFF0F0" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/text_nama" app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent" android:textStyle="normal" android:textSize="12sp" android:textColor="#FF5722" android:textAlignment="center" android:text="Test" android:textAllCaps="false" android:clickable="true"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" tools:layout_editor_absoluteY="223dp" android:padding="15dp" android:orientation="horizontal" tools:layout_editor_absoluteX="97dp" android:layout_gravity="center" android:id="@+id/content2">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView3" app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent" android:textStyle="normal" android:textSize="12sp" android:textColor="@color/white" android:textAlignment="center" android:text="No HP:" android:layout_marginRight="5dp"/>
+
+    <TextView android:background="#00FFF0F0" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/text_no_hp" app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent" android:textStyle="normal" android:textSize="12sp" android:textColor="#FF5722" android:textAlignment="center" android:text="Test" android:textAllCaps="false" android:clickable="true"/>
+
+</LinearLayout>
+
+
+    -<LinearLayout android:layout_height="wrap_content" android:layout_width="wrap_content" tools:layout_editor_absoluteY="269dp" android:padding="15dp" android:orientation="horizontal" tools:layout_editor_absoluteX="97dp" android:layout_gravity="center" android:id="@+id/content3">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView4" app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent" android:textStyle="normal" android:textSize="12sp" android:textColor="@color/white" android:textAlignment="center" android:text="Alamat:" android:layout_marginRight="5dp"/>
+
+    <TextView android:background="#00FFF0F0" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/text_alamat" app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent" android:textStyle="normal" android:textSize="12sp" android:textColor="#FF5722" android:textAlignment="center" android:text="Test" android:textAllCaps="false" android:clickable="true"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
